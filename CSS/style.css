@@ -73,4 +73,10 @@ ul li {
     font-size: 15px;
     font-weight: 700;
     width: 310px;
+    transition: .3s;
+}
+
+ul li:hover {
+    background-color: var(--green);
+    color: var(--darkGray);
 }
