@@ -35,14 +35,14 @@ body {
 .card .image {
     width: 100%;
     max-width: 80px;
+    height: 80px;
+    border: 4px solid white;
+    background-color: var(--green);
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto 25px;
 }
 
-.card img {
-    max-width: 100%;
-}
 
 .card .label h1 {
     font-size: 24px;
@@ -79,4 +79,13 @@ ul li {
 ul li:hover {
     background-color: var(--green);
     color: var(--darkGray);
+}
+
+@media (max-width: 375px) {
+    .card {
+        padding: 30px 20px;
+    }
+    ul li {
+        width: 290px;
+    }
 }
